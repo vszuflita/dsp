@@ -44,11 +44,11 @@ What do the following commands do:
 --- | ---
 `ls`  | Lists what's in the directory
 `ls -a`  | Lists what's in the directory including hidden items
-`ls -l`  | "Long Lists". Gives you information on the file type, permission, owner of the file, and file name)
-`ls -lh`  |
-`ls -lah`  |
-`ls -t`  |
-`ls -Glp` | 
+`ls -l`  | "Long List". Gives you information on the file type, permission, owner of the file, and file name)
+`ls -lh`  | "Long List" in human form. Gives you all the information from -l, but with a readable file size). 
+`ls -lah`  | "Long List" with hidden files shown.
+`ls -t`  | List sorted by time and date. 
+`ls -Glp` | Long list formatting, excluding the owner's name, displaying directories with "/". 
 
 
 ---
@@ -57,7 +57,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+**Command** | **What they do**
+--- | ---
+`ls -s`  | Lists file size
+`ls -S`  | Sorts by file size
+`ls -R`  | Displays subdirectories as well
+`ls -1`  | Displays on it's own line
+`ls -r`  | Displays in reverse order
 
 ---
 
@@ -65,7 +71,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs allows you to do the same command for every item in a series. 
 
  
 
