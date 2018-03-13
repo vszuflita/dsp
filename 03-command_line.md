@@ -20,22 +20,36 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+**Task** | **Command**
+--- | ---
+Show current working directory path | pwd
+Change directory you're in | cd (directory)
+Show the type of file | file (filepath)
+Access the manual | man (thing you want to search)
+Creating a directory | mkdir (directory name)
+Deleting a directory | rmdir (directory name)
+Creating a file | touch (file name)
+Deleting a file | rm (filename)
+Renaming a file | mv (original file name) (new file name)
+Listing hidden files | ls -a
+Copying a file from one directory to another | cp (source) (destination)
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+**Command** | **What they do**
+--- | ---
+`ls`  | Lists what's in the directory
+`ls -a`  | Lists what's in the directory including hidden items
+`ls -l`  | "Long Lists". Gives you information on the file type, permission, owner of the file, and file name)
+`ls -lh`  |
+`ls -lah`  |
+`ls -t`  |
+`ls -Glp` | 
+
 
 ---
 
