@@ -43,3 +43,5 @@ The mean for the biased distribution is: **2.403679100664282**
 
 Here is the visual representation of the differences between the distributions:
 
+![PMF Kids/HH](https://github.com/vszuflita/dsp/blob/master/img/output_9_0.png)
+
