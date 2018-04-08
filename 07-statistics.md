@@ -86,14 +86,35 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+ **Answer** 
+
+Bayes' Theorem gives the probability of an event, given (conditional of) the probability of another event. 
+
+In this problem, the probability of Elvis being an identical twin, is conditional on the fact that he was, in fact, a twin. 
+
+Meaning, it wouldn't be fair to say that the probability Elvis was an identical twin is the same as the probability for the whole population (1/300), it would be way less because we already know he's a twin. It would instead be... (well, we'll see!)
+
+First, here is the formula for **Conditional Probability**:
+
+**P(A|C) = ( P(C|A) / P(C) ) x P(A)**
+ie: Probabilty of A happening, knowing that B is true is equal to... The probabilty of C happening given A is true, divided by the general probabilty that C will occur. All of this is then multiplied by the general probability that A will occur. 
+
+**Solving for Elvis Example:**
+
+P(Idential | Twin) = ( P(Twin | Identical)/P(Twin) ) * P(Identical)
+
+= ( 1 / (1/125 + 1/300) ) * 1/300 = **0.294**
+
+*P.S. The probabilty I'm an identical twin is 1!* 
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+**Frequentist Statistics**: Applys known information, or information available at the time to model or problem solve. Builds off less prior, or outside relevant information than...
+
+**Bayesian Statistics**: Uses previously known conditions or probabilities in combination with new information or hyptheses to draw conclusions. 
 
 ---
 
