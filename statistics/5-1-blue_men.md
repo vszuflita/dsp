@@ -12,7 +12,7 @@ sigma = 7.7
 lower = 177.8 #5'10
 upper = 185.42 #6'1
 
-#Calculating the normalize cdf for the upper and lower ranges. What percentage of men fall below the upper height? The lower?
+#Calculating the normalized cdf for the upper and lower ranges. What percentage of men fall below the upper height? The lower?
 percentlower = scipy.stats.norm.cdf(lower, mu, sigma)
 percentupper = scipy.stats.norm.cdf(upper, mu, sigma)
 
