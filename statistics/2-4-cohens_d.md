@@ -11,7 +11,8 @@ import nsfg
 
 preg = nsfg.ReadFemPreg()
 
-#Cleaning the variables we're planning to use. "totalwgt_lb" will add both the lbs and the oz, and create a new column in our set. 
+"""Cleaning the variables we're planning to use. "totalwgt_lb" will add both the lbs 
+and the oz, and create a new column in our set. """
 
 def CleanFemPreg(df):
     df.birthwgt_lb.replace(na_vals, np.nan, inplace=True)
@@ -49,3 +50,5 @@ CohensD(first.totalwgt_lb, others.totalwgt_lb)
 ```
 
 Cohen's D: -0.088672927072602
+This is the standardized difference between the two means. 
+This Cohen's D implies that first babies are slightly lighter than other babies.  
